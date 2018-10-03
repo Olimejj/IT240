@@ -1,0 +1,18 @@
+p {
+        color: green;
+}
+body {
+        background-color: lightblue;
+}
+nav a{
+        background-color: lightgreen;
+}
+dd {
+        background-color: lightgrey;
+}
+dt {
+        background-color: grey;
+}
+#top3 {
+        background-color: blue;
+}
