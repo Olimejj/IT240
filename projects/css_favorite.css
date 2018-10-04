@@ -1,0 +1,30 @@
+p {
+        
+}
+body {
+        background-color: #AA998F;
+	color: #7D4F50;
+	font-family: verdana;
+	font-size: 20px;
+}
+nav {
+        background-color: #D1BE9C;
+	font-size: 25px;
+	font-style: italic;
+}
+dd {
+        background-color: #F9EAE1;
+}
+dt {
+        background-color: #D1BE9C;
+}
+li  {
+	font-style: italic;
+}
+.list {
+	font-style: italic;
+	font-family: serif;
+}
+#names {
+	font-size: 30px;
+}
