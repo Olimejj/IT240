@@ -1,0 +1,14 @@
+body {
+/*	background-image: url("photos/spider1.jpg");
+	background-repeat: no-repeat;*/
+}
+header {
+
+}
+ul {
+	list-style-image: url("photos/spider3.jpg");
+}
+footer {
+	font-size: 30px;
+	color: orange;
+}
