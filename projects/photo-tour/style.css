@@ -1,0 +1,30 @@
+#repeat {
+	background-image: url("hawaii.jpg");
+	height: 450px; 
+}
+#left {
+	background-image: url("byuh.jpg");
+	height: 450px;
+	background-repeat: no-repeat;
+	background-position: right; 
+}
+#left p{
+	font-size: 20px;
+	text-align: left;
+}
+#repeat h3, #left h3{
+	font-size: 55px;
+	background-color: black;
+	color: white;
+}
+header {
+	background-color: lightgrey;
+	font-size: 55px;
+	text-align: center;
+}
+footer {
+	background-color: lightgrey;
+	font-size: 15px;
+	text-align: center;
+	color: rgb(50,50,50);
+}
