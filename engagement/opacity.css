@@ -34,3 +34,7 @@ article {
 	margin: 25px;
 	width: 40%;
 }
+nav a {
+	background-color: grey;
+	border: 10px solid black;
+	opacity: .3;
