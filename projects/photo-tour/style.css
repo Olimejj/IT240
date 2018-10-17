@@ -1,10 +1,11 @@
 #repeat {
-	background-image: url("hawaii.jpg");
+	background-image: url("HI-islands-small.png");
 	height: 450px; 
+	
 }
 #left {
 	background-image: url("byuh.jpg");
-	height: 450px;
+	height: 515px;
 	background-repeat: no-repeat;
 	background-position: right; 
 }
@@ -12,10 +13,14 @@
 	font-size: 20px;
 	text-align: left;
 }
-#repeat h3, #left h3{
+ h3{
 	font-size: 55px;
 	background-color: black;
 	color: white;
+}
+#left ul{
+	list-style-image: url("list-item.png");	
+	width: 30%;
 }
 header {
 	background-color: lightgrey;
@@ -27,4 +32,34 @@ footer {
 	font-size: 15px;
 	text-align: center;
 	color: rgb(50,50,50);
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+   	width: 50%;
+}
+.content {
+	background-color: lightblue;
+	text-align: center;
+}
+#France {
+	font-size: 20px;
+	font-family: "Lucida Sans Unicode","Lucida Grande", sans-serif;
+}
+#England {
+	font-size: 20px;
+	font-family: Tahoma, Geneva, serif;
+}
+#Spain {
+	font-size: 20px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#Germany {
+	font-size: 20px;
+	font-family: Impact, Charcoal, sans-serif;
+}
+#Italy {
+	font-size: 20px;
+	font-family: "Courier New", Courier, monospace;
 }
