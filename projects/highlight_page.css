@@ -2,7 +2,8 @@ body {
 	background-color: lightblue;
 	border: 25px solid green;
 	padding: 25px;
-	margin: auto, center;
+	margin: auto;
+	align-content: center;
 }
 header {
 	background-image: linear-gradient(to right, gray , lightgray);
@@ -46,7 +47,7 @@ nav a {
 	background-color: white;
 	border: 10px solid black;
 	border-radius: 25px;
-	text-size: 30px;
+	font-size: 30px;
 	font-weight: bold;
 }
 article h3{
