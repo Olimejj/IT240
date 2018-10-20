@@ -1,0 +1,16 @@
+body {
+	background-color: lightblue;
+	border: 20px solid blue;
+}
+nav {
+	background-color: darkblue;
+}
+a {
+	color: white;
+}
+a:visited {
+    color: green;
+}
+h1 {
+	font-size: 30px;
+}		
