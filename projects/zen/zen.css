@@ -1,0 +1,23 @@
+section {
+	background-image: url('old-car.png');
+}
+.design-selection ul{
+	vertical-align: middle;
+}
+a {
+	list-style-position: inside;
+	text-align: center;
+	
+}
+li {
+	background-color: white;
+	margin: 5% 45% 5% 45%;
+	padding: 30px;
+	height: 160px;
+}
+aside {
+	background-image: url('road.png');
+	border-left: 60px dashed yellow;
+	border-right: 60px dashed yellow;
+}
+
