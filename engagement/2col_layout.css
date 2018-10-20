@@ -32,10 +32,17 @@ article {
 	border: 25px solid green;
 	padding: 25px;
 	margin: 25px;
-	width: 40%;
+	width: 35%;
+	float: left;
 }
+
 nav a {
 	background-color: grey;
 	border: 10px solid black;
 	opacity: .3;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
