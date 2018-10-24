@@ -27,20 +27,39 @@ body {
         padding: 30px;
 }
 #zen-participation {
+	color: tan;
 	background-image: url('pizza_truck.png');
         background-repeat: repeat-x;
         padding: 30px;
 }
+#zen-participation h3, .preamble h3 {
+	color: tan;
+	background-color: darkred;
+}
+#zen-supporting h3 {
+	color: darkred;
+	background-color: tan;
+}
+p {
+	opacity: .7;
+	background-color: rgb(50,50,50);
+	color: white;
+}
 .requirements {
 	text-align: left;
-	color: white !important;
+	color: white;
 	background-image: url('oldtimer.png');
         background-repeat: no-repeat;
 	background-position: right;
 	padding: 10%;
 }
 header{
+	color: darkred;
 	font-size: 30px;
+}
+h3 {
+	font-size: 25px;
+	color: darkred;
 }
 .design-selection ul{
 	vertical-align: middle;
