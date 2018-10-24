@@ -1,5 +1,46 @@
-section {
+body {
+	text-align: center;
+	font-size: 20px;
+	background-color: gray;
+}/*
+.page-wrapper{
+	 background-image: url('wallpaper.png');
+        background-repeat: repeat;
+}*/
+.intro {
+	
+	background-color: lightgray;
+}
+.summary {
 	background-image: url('old-car.png');
+	background-repeat: repeat-x;
+	padding: 30px;
+}
+.preamble {
+	background-image: url('pizza_truck.png');
+        background-repeat: repeat-x;
+        padding: 30px;
+}
+#zen-supporting {
+	background-image: url('old-car.png');
+        background-repeat: repeat-x;
+        padding: 30px;
+}
+#zen-participation {
+	background-image: url('pizza_truck.png');
+        background-repeat: repeat-x;
+        padding: 30px;
+}
+.requirements {
+	text-align: left;
+	color: white !important;
+	background-image: url('oldtimer.png');
+        background-repeat: no-repeat;
+	background-position: right;
+	padding: 10%;
+}
+header{
+	font-size: 30px;
 }
 .design-selection ul{
 	vertical-align: middle;
@@ -16,20 +57,53 @@ li {
 	height: 160px;
 }
 aside {
+	position: relative;
 	background-image: url('road.png');
+	background-color: black;
 	border-left: 60px dashed yellow;
 	border-right: 60px dashed yellow;
 }
-.resources{
-	color: white;
-}
 .archives{
 	color: white;
+	font-size: 22px;
+	font-family: "Courier New", Courier, monospace;
 	background-image: url('old-car-black.png');
 	background-repeat: no-repeat;
-	padding: 100px 100px;
+	padding: 90px 90px;
 	margin: 10%;
 	float:right;
 	transform: rotate(270deg);
 	
 }
+.resources{
+	color: white;
+	font-size: 22px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-image: url('pizza_truck.png');
+	background-repeat: no-repeat;
+	padding: 90px 90px;
+	margin: 10%;
+	float: left;
+	transform: rotate(270deg);
+	
+}
+.select{
+	position: absolute;
+	top: 25px;
+	left: 10;
+	color: white;
+	font-size: 22px;
+	font-family: "Courier New", Courier, monospace;
+	background-image: url('model_t.png');
+	background-repeat: no-repeat;
+	padding: 90px 90px;
+	margin: 10%;
+	float:right;
+	transform: rotate(300deg);
+	
+}
+/*
+@media only screen and (min-width: 600px) {	
+}
+
+
