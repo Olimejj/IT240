@@ -109,7 +109,7 @@ aside {
 .select{
 	position: absolute;
 	top: 25px;
-	left: 10;
+	left: 10px;
 	color: white;
 	font-size: 22px;
 	font-family: "Courier New", Courier, monospace;
@@ -121,8 +121,4 @@ aside {
 	transform: rotate(300deg);
 	
 }
-/*
-@media only screen and (min-width: 600px) {	
-}
-
 
