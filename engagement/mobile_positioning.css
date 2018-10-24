@@ -9,11 +9,15 @@ header {
 	border: 20px solid gray;
 }
 ul {
-	list-style-image: url("photos/sm_spid_3.png");
 	list-style-position: inside;
 	border: 15px solid darkblue;
 	padding: 20px;
 	margin: 20px;
+}
+@media only screen and (min-width: 600px) {
+    ul {
+	list-style-image: url("photos/sm_spid_3.png");
+    }
 }
 li {
 	padding: 20px;
@@ -28,14 +32,21 @@ footer {
 	border: 20px solid gray;
 }
 article {
-	background-color: lightgrey;
-	border: 25px solid green;
-	padding: 25px;
-	margin: 25px;
-	width: 40%;
+        background-color: lightgrey;
+        border: 25px solid green;
+        padding: 25px;
+        margin: 25px;
+        width: 35%;
+        float: left;
 }
+
 nav a {
 	background-color: grey;
 	border: 10px solid black;
 	opacity: .3;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
