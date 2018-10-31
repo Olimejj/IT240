@@ -1,15 +1,27 @@
 body { 
 	background-color: lightgray;
+	font-size: 20px;
 }
 header {
         text-align: center;
+	background-color: #BCED91;
 }	
 
 table { 
 	background-color: darkgray;
 	border: 8px solid black;
 	margin: auto;
+	margin-top: 0px;
 }
 table td, table th {
 	border: 5px solid black;
+}
+.table-heading {
+	background-color: #BCED91;
+}
+table tr {
+	background-color: lightblue;
+}
+#closed {
+	background-color: orange;
 }
