@@ -1,0 +1,69 @@
+body {
+	background-color: lightblue;
+	border: 25px solid green;
+	padding: 25px;
+	margin: auto;
+}
+header {
+	text-align: center;
+	border: 20px solid gray;
+	overflow: auto;
+}
+li {
+	padding: 20% 2px 20% 2px;
+	background-color: blue;
+	border: 10px solid blue;
+	text-align: center;
+}
+
+ul {
+	list-style-position: inside;
+	background-color: darkblue;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+}
+footer {
+	text-align: center;
+	font-size: 30px;
+	color: darkgray;
+	background-image: url("grass.jpg");
+	border: 20px solid gray;
+	opacity: .5;
+}
+article {
+	float: right;
+	background-color: lightgrey;
+	border: 25px solid green;
+	padding: 25px;
+	margin: 25px;
+	width: 55%;
+	height: 100%;
+	text-align: center;
+	margin-left: auto;
+    	margin-right: auto;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	line-height: 200%;
+}
+nav a {
+	background-color: white;
+	border: 10px solid black;
+	border-radius: 25px;
+	font-size: 30px;
+	font-weight: bold;
+}
+article h3{
+	font-family: Tahoma, Geneva, sans-serif;
+        font-size: 35px;
+        background-color: black;
+        color: white;
+	text-shadow: 2px 1px lightgrey;
+	text-transform: capitalize;
+	line-height: 140%;
+	box-shadow: 5px 10px darkgrey;
+}
+h1{
+	font-family: Tahoma, Geneva, sans-serif;
+        font-size: 35px;
+	text-shadow: 2px 2px gray;
+}
