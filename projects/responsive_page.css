@@ -1,69 +1,89 @@
 body {
+	background-color: black;
+
+
+
+}
+#wrapper {
+	width: 90%;
 	background-color: lightblue;
-	border: 25px solid green;
-	padding: 25px;
 	margin: auto;
 }
-header {
+h1 {
+	color: orange;
 	text-align: center;
-	border: 20px solid gray;
-	overflow: auto;
+	font-size: 80px;
+	font-family: "Comic Sans MS", cursive, serif;
 }
-li {
-	padding: 20% 2px 20% 2px;
-	background-color: blue;
-	border: 10px solid blue;
+/*.content {
+	padding: 10%;
+	float: right;
+	border: solid 10px orange;
+}
+.content p {
+	color: orange;
+	margin: 0% 45% 2% 5%;;
+	font-size: 25px;
+	border: solid 5px yellow;
 	text-align: center;
+}*/
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 0;
+}
+nav li {
+	padding: 0;
 }
 
-ul {
-	list-style-position: inside;
-	background-color: darkblue;
-	padding: 10px;
-	margin: 10px;
+nav a {
+	padding: 10px 5px 10px 20px;
+	display: block;
+	border-bottom: thin solid #FFF;
+	text-decoration: none;
+	color: #000066;
+	background-color: #EAEAEA;
+}
+
+nav a:hover {
+	color: #EAEAEA;
+	background-color: #000066;
+}
+#left-column {
+	width: 150px;
 	float: left;
 }
-footer {
-	text-align: center;
-	font-size: 30px;
-	color: darkgray;
-	background-image: url("grass.jpg");
-	border: 20px solid gray;
-	opacity: .5;
-}
-article {
+#right-column {
+	width: 150px;
 	float: right;
-	background-color: lightgrey;
-	border: 25px solid green;
-	padding: 25px;
-	margin: 25px;
-	width: 55%;
-	height: 100%;
+}
+#content {
+	color: orange;	
+}
+#jack-fig {
+	float: right; 
+	border:solid 5px yellow;
+}
+#jack-pic {
+	
+}
+figure figcaption {
+	color: orange;
+	font-family: "Comic Sans MS", cursive, serif;
 	text-align: center;
-	margin-left: auto;
-    	margin-right: auto;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-	line-height: 200%;
+	font-size: 40px;
 }
-nav a {
-	background-color: white;
-	border: 10px solid black;
-	border-radius: 25px;
-	font-size: 30px;
-	font-weight: bold;
+
+footer {
+	color: orange;
+	font-size: 25px;
+	border: solid 5px yellow;
 }
-article h3{
-	font-family: Tahoma, Geneva, sans-serif;
-        font-size: 35px;
-        background-color: black;
-        color: white;
-	text-shadow: 2px 1px lightgrey;
-	text-transform: capitalize;
-	line-height: 140%;
-	box-shadow: 5px 10px darkgrey;
+#clear {
+	clear: both;
 }
-h1{
-	font-family: Tahoma, Geneva, sans-serif;
-        font-size: 35px;
-	text-shadow: 2px 2px gray;
+#loud {
+	font-style: bold;
+	font-size: 28px; 
+	font-family: "Comic Sans MS", cursive, serif;
 }

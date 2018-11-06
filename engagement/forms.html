@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Form</title>
+		<link rel="stylesheet" href="form.css">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1>Form</h1>
+		<div id="main-content">
+			<form action="formproc.php" method="post">
+				Name: <input type="text" name="name"><br>
+				Email: <input type="text" name="email"><br>
+				Password: <input type="password" name="passwor"><br>
+				<input type="submit">
+				<input type="radio"name="gender" valuse="male"> Male
+				<input type="radio"name="gender" valuse="female"> Female<br>
+				<input type="checkbox"name="agree">I agree<br>
+				State: <select name="state">
+					<option value="CA">California</option>
+					<option value="UT">Utah</option>
+					<option value="HI">Hawaii</option>
+				</select><br>
+				Comments:<br>
+				<textarea name="comments"></textarea><br>
+				<input type="submit">
+				
+			</form>
+		</div>
+	</body>
+</html>
+				
