@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <title>Meal Plan</title>
+                <meta charset="utf-8">
+                <link rel="stylesheet" href="tables.css">
+        </head>
+        <body>
+                <header>
+                        <h1>Weekly Meals</h1>
+                </header>
+
+                <table>
+                        <tr class="table-heading"><th>Day</th>
+                            <th>Unit</th>
+                            <th>Attack</th>
+                            <th>Defence</th>
+                            <th>Movement</th>
+                        </tr>
+                        <tr><td>Warrior</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr><td>Spearman</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>1</td>
+                        </tr>
+                        <tr><td>Archer</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                </table>
+                <footer>
+                        &copy; Olimejj-enterprises 
+                </footer>
+        </body>
+</html>
