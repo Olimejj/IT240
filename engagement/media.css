@@ -1,0 +1,36 @@
+body { 
+	background-color: lightblue;
+}
+
+.nav-link {
+	display: block;
+	width: 50%;
+	border: thin solid #000;
+	padding: 8px 30px;
+	text-decoration: none;
+	color: #FFF;
+	background-color: orange;
+	 -webkit-transform: background-color 2s linear;
+	 -moz-transform: background-color 2s linear;
+	 -o-transform: background-color 2s linear;
+	 -ms-transform: background-color 2s linear;
+	transition: background-color 2s linear;
+}
+.nav-link:hover {
+	background-color: darkgreen;
+}
+#debt-tiper img{
+	width: 200px;
+}
+
+#debt-tiper{
+	border: thin solid #000;
+	width: 200px;
+	box-shadow: 3px 3px 1px rgb(150,150,150);
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+	-o-transform: rotate(10deg);
+	-ms-transform: rotate(10deg);
+	transform: rotate(10deg);
+
+}
