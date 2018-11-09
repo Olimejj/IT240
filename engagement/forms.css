@@ -36,3 +36,6 @@ h1 {
 .form-row input:focus {
 	background-color: #FFF;
 }
+.radio-row {
+	margin: 10px 0px 10px 115px;
+}
