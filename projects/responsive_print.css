@@ -1,0 +1,64 @@
+body {
+	background-color: black;
+	font-family: serif;
+
+
+
+}
+#wrapper {
+	width: 90%;
+	font-family: serif;
+	margin: auto;
+}
+h1 {
+	color: orange;
+	text-align: center;
+	font-size: 80px;
+	font-family: "Comic Sans MS", cursive, serif;
+}
+nav {
+	display: none;
+}
+#content {
+	padding: 10px;
+	color: orange;	
+}
+#content p { 
+	text-align: center;
+	font-family: serif;
+}
+.clear {
+	clear: both;
+}
+#left-column {
+	display: none;
+}
+#right-column {
+	float: right;
+}
+#jack-fig {
+	float: right; 
+	border:solid 5px yellow;
+}
+#jack-pic {
+	
+}
+#jack-fig figcaption {
+	color: orange;
+	font-family: "Comic Sans MS", cursive, serif;
+	text-align: center;
+	font-size: 40px;
+}
+
+footer {
+	color: orange;
+	font-size: 25px;
+	border: solid 5px yellow;
+}
+header {
+	
+}
+#loud {
+	font-size: 28px; 
+	font-family: "Comic Sans MS", cursive, serif;
+}

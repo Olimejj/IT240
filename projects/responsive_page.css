@@ -85,3 +85,56 @@ header {
 	font-size: 28px; 
 	font-family: "Comic Sans MS", cursive, serif;
 }
+@media only screen and (max-width: 768px){
+	body {
+		margin: 0;
+	}
+	#wrapper {
+		width: 100%;
+	}
+	#left-column {
+		float: none;
+		width: 100%;
+
+	}
+	#right-column{
+		margin-left: 0;
+	}
+	ul {
+		background-color: black;
+	}
+	nav li {
+		display: inline;
+	}
+	nav a {
+		display: inline-block;
+		border-bottom: none;
+		border-right: thin solid yellow;
+	}
+}
+@media only screen and (max-width: 480px){
+	#wrapper {
+		margin-top: -23px;
+	}
+	nav ul {
+		margin-bottom: 0;
+	}
+	nav li {
+		display: block;
+	}
+	nav a {
+		width: 100%;
+		border-bottom: thin solid yellow;
+		border-right: none;
+	}
+	#jack-fig {
+		float: none;
+		border: none;
+		width: 100px;
+		margin: auto;
+	}
+	img {
+		width:100px;
+		height: 100px;
+	}
+}
