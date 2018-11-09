@@ -6,7 +6,6 @@ body {
 }
 #wrapper {
 	width: 90%;
-/*	border: 5px solid yellow;*/
 	margin: auto;
 }
 h1 {
@@ -23,19 +22,17 @@ nav ul {
 nav li {
 	padding: 0;
 }
-
 nav a {
 	padding: 10px 5px 10px 20px;
 	display: block;
-	border-bottom: thin solid #FFF;
+	border-bottom: thin solid yellow;
 	text-decoration: none;
-	color: #000066;
-	background-color: #EAEAEA;
+	color: chocolate;
 }
 
 nav a:hover {
-	color: #EAEAEA;
-	background-color: #000066;
+	color: yellow;
+	background-color: black;
 }
 #content {
 	padding: 10px;
@@ -50,8 +47,13 @@ nav a:hover {
 	clear: both;
 }
 #left-column {
-	width: 150px;
+        background-color: #654321;
+	border: solid 1px yellow;
+        padding: 25px; 
+        height: 300px;
+	width: 15%;
 	float: left;
+
 }
 #right-column {
 	width: 80%;
@@ -75,6 +77,9 @@ footer {
 	color: orange;
 	font-size: 25px;
 	border: solid 5px yellow;
+}
+header {
+	
 }
 #loud {
 	font-size: 28px; 
