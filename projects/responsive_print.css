@@ -26,6 +26,7 @@ nav {
 #content p { 
 	text-align: center;
 	font-family: serif;
+	font-size: 20px;
 }
 .clear {
 	clear: both;

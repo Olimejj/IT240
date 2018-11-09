@@ -1,27 +1,38 @@
-body {  
-        background-color: lightgray;
-        font-size: 20px;
+body {
+	
 }
-header {
-        text-align: center;
-        background-color: #BCED91;
-}       
+h1 {
+	text-align: center;
+	font-size: 30px;
+}
 
-table { 
-        background-color: darkgray;
-        border: 8px solid black;
-        margin: auto;
-        margin-top: 0px;
+#register-form fieldset {
+	background-color: #eaeaea;
 }
-table td, table th {
-        border: 5px solid black;
+#register-form legend{
+	background-color: #0000C7;	
+	color: #FFF;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 16pt;
+
 }
-.table-heading {
-        background-color: #BCED91;
+.form-row {
+	margin: 10px 0;
 }
-table tr {
-        background-color: lightblue;
+.form-row label {
+	float: left;
+	clear: left;
+	width: 100px;
+	text-align: right;
+	padding-right: 10px;
 }
-#closed {
-        background-color: orange;
+
+.form-row input {
+	padding: 3px;
+	border-radius: 5px;
+	background-color: #DAD8ED;
+}
+.form-row input:focus {
+	background-color: #FFF;
 }
