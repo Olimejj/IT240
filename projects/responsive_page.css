@@ -6,7 +6,7 @@ body {
 }
 #wrapper {
 	width: 90%;
-	background-color: lightblue;
+/*	border: 5px solid yellow;*/
 	margin: auto;
 }
 h1 {
@@ -15,18 +15,6 @@ h1 {
 	font-size: 80px;
 	font-family: "Comic Sans MS", cursive, serif;
 }
-/*.content {
-	padding: 10%;
-	float: right;
-	border: solid 10px orange;
-}
-.content p {
-	color: orange;
-	margin: 0% 45% 2% 5%;;
-	font-size: 25px;
-	border: solid 5px yellow;
-	text-align: center;
-}*/
 nav ul {
 	list-style-type: none;
 	padding: 0;
@@ -49,16 +37,25 @@ nav a:hover {
 	color: #EAEAEA;
 	background-color: #000066;
 }
+#content {
+	padding: 10px;
+	color: orange;	
+}
+#content p { 
+        width: 80%;
+        border: solid 5px yellow;
+	text-align: center;
+}
+.clear {
+	clear: both;
+}
 #left-column {
 	width: 150px;
 	float: left;
 }
 #right-column {
-	width: 150px;
+	width: 80%;
 	float: right;
-}
-#content {
-	color: orange;	
 }
 #jack-fig {
 	float: right; 
@@ -67,7 +64,7 @@ nav a:hover {
 #jack-pic {
 	
 }
-figure figcaption {
+#jack-fig figcaption {
 	color: orange;
 	font-family: "Comic Sans MS", cursive, serif;
 	text-align: center;
@@ -79,11 +76,7 @@ footer {
 	font-size: 25px;
 	border: solid 5px yellow;
 }
-#clear {
-	clear: both;
-}
 #loud {
-	font-style: bold;
 	font-size: 28px; 
 	font-family: "Comic Sans MS", cursive, serif;
 }
