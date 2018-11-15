@@ -20,5 +20,5 @@
 				<source src="happy.ogg" type="audio/ogg">
 				<a href="happy.mp3">Download Audio File</a>
 			</audio>
-			<a href="#" class="nav-link">Get Out Of Debt Calculator</a>
+			<a href="debt_form.php" class="nav-link">Get Out Of Debt Calculator</a>
 <?php make_footer();?>

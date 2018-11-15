@@ -15,7 +15,8 @@ function make_header($current_link, $crumbs){?>
 				crumbs_generator($key, $value);
 				$crum_num++;
 			}		
-			nav_bar($current_link);?>
+			?> <header> <h1><?php echo $current_link ?></h1></header>
+			<?php nav_bar($current_link);?>
 			<div class='wrapper'>
 <?php 
 }
@@ -34,7 +35,7 @@ function nav_bar($current_link){
 	echo '<nav>';
 		nav_link("HOME", "index.php", $current_link);
 		nav_link("CHART", "table.php", $current_link);
-		nav_link("FORM", "form.php", $current_link);
+		nav_link("DEBT-FORM", "debt_form.php", $current_link);
 	echo '</nav>';
 }
 function nav_link($name, $url, $current_link) {
