@@ -1,6 +1,7 @@
 <?php
 	require_once("functions.php");
 	make_header("CHART",array("HOME"=>"index.php", "CHART"=>"table.php"));			
+?>
  <table id="debt_table">
                         <caption>Calculated for $15,000 debt with montly payment of $2,600 and 6% interest</caption>
                         <tr class="table-heading">
@@ -54,5 +55,5 @@
                             <td>$0</td>
                         </tr>
                 </table>
-?>
+
 <?php make_footer();?>
