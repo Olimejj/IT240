@@ -1,3 +1,21 @@
+#debt_table {
+	border-collapse: collapse;
+	background-color: darkgray;
+	border: 5px solid black;
+	margin: auto;
+	margin-top: 0px;
+}
+caption {
+	font-family: serif;
+	color: gray;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline-block;
+}
 body { 
 	background-color: lightgray;
 	font-size: 25px;
@@ -7,14 +25,8 @@ header {
 	background-color: #BCED91;
 }	
 
-table { 
-	background-color: darkgray;
-	border: 8px solid black;
-	margin: auto;
-	margin-top: 0px;
-}
 table td, table th {
-	border: 5px solid black;
+	border: 2px solid black;
 }
 .table-heading {
 	background-color: #BCED91;
@@ -22,8 +34,8 @@ table td, table th {
 table tr {
 	background-color: lightblue;
 }
-#closed {
-	background-color: orange;
+.payment:nth-of-type(odd) {
+	background-color: #E6F3F7;
 }
 footer {
 	font-size: 45px;
