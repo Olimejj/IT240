@@ -1,3 +1,11 @@
+#left-col{
+ width: 70%;
+ float: left;	
+}
+#right-col{
+ width: 25%;
+ float: right;
+}
 #debt_table {
 	border-collapse: collapse;
 	background-color: darkgray;
@@ -38,6 +46,41 @@ table tr {
 	background-color: #E6F3F7;
 }
 footer {
-	font-size: 45px;
+	font-size: 35px;
 	color: gray;
 }
+@media only screen and (max-width: 768px){
+        body {
+                margin: 0;
+        }
+        #left-col {
+                float: none;
+                width: 100%;
+
+        }
+        #right-col{
+                margin-left: 0;
+		width: 100%;
+        }
+        nav li {
+                display: inline;
+        }
+        nav a {
+                display: inline-block;
+                border-bottom: none;
+        }
+}
+
+@media only screen and (max-width: 480px){
+        nav ul {
+                margin-bottom: 0;
+        }
+        nav li {
+                display: block;
+        }
+        nav a {
+                width: 100%;
+                border-right: none;
+        }
+}
+
