@@ -2,7 +2,7 @@
  require_once("functions.php");
  make_header("DEBT-FORM",array("HOME"=>"index.php","DEBT-FORM"=>"debt_form.php"));
 ?>
-			<form action="table.php" method="post" id="register-form">
+			<form action="post.php" method="post" id="register-form">
 			   <fieldset>
 				<legend>Debt Calculator</legend>
 				<div class="form-row">
