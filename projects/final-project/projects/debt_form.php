@@ -2,6 +2,8 @@
  require_once("functions.php");
  make_header("DEBT-FORM",array("HOME"=>"index.php","DEBT-FORM"=>"debt_form.php"));
 ?>
+<script src="/IT240/node_modules/better-dom/dist/better-dom.js"></script>
+<script src="/IT240/node_modules/better-dateinput-polyfill/dist/better-dateinput-polyfill.js"></script>
 			<form action="post.php" method="post" id="register-form">
 			   <fieldset>
 				<legend>Debt Calculator</legend>
