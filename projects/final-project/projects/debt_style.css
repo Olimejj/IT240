@@ -33,3 +33,45 @@ body {
 	-ms-transform: rotate(10deg);
 	transform: rotate(10deg);
 }
+body {
+  
+}
+h1 {
+        text-align: center;
+        font-size: 30px;
+}
+
+#register-form fieldset {
+        background-color: #eaeaea;
+}
+#register-form legend{
+        background-color: #0000C7;
+        color: #FFF;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 16pt;
+
+}
+.form-row {
+        margin: 10px 0;
+}
+.form-row label {
+        float: left;
+        clear: left;
+        width: 100px;
+        text-align: right;
+        padding-right: 10px;
+}
+
+.form-row input {
+        padding: 3px;
+        border-radius: 5px;
+        background-color: #DAD8ED;
+}
+.form-row input:focus {
+        background-color: #FFF;
+}
+.radio-row {
+        margin: 10px 0px 10px 115px;
+}
+
