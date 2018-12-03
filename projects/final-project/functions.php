@@ -36,6 +36,10 @@ function nav_bar($current_link){
 		nav_link("HOME", "index.php", $current_link);
 		nav_link("CHART", "table.php", $current_link);
 		nav_link("DEBT-FORM", "debt_form.php", $current_link);
+		nav_link("LOGIN/LOGOUT", "login.php", $current_link);
+		nav_link("ABOUT", "about.php", $current_link);
+		nav_link("DEBT JOURNEY", "start_journey.php", $current_link);
+		nav_link("STATISTICS", "statistics.php", $current_link);
 	echo '</nav>';
 }
 function nav_link($name, $url, $current_link) {
