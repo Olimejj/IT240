@@ -14,7 +14,7 @@
 						<br class="clear">
 				</div>
 </div>
-
+</div>
 
 
 <?php make_footer();?>

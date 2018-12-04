@@ -39,6 +39,7 @@ function nav_bar($current_link){
 		nav_link("ABOUT US", "about.php", $current_link);
 		nav_link("START JOURNEY", "start_journey.php", $current_link);
 		nav_link("ABOUT DEBT", "statistics.php", $current_link);
+		nav_link("RESOURCES", "books.php", $current_link);
 	echo '</ul></nav>';
 }
 function nav_link($name, $url, $current_link) {
