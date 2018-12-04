@@ -88,6 +88,10 @@ footer {
         font-size: 45px;
         color: gray;
 }
+#contact-email {
+	font-size: 25px !important;
+	color: black !important;
+}
 .on {
 	color: green;
 }
