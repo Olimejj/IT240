@@ -2,7 +2,8 @@
 	require_once("functions.php");
 	make_header("PERSONAL CHART",array("HOME"=>"index.php", "DEBT-CALCULATOR" => "debt_form.php", "CHART"=>"table.php", ));			
 $months = $_POST['months'];
-$name = $POST['name'];
+$password = $_POST['password'];
+$name = $_POST['name'];
 $email = $_POST['email'];
 $age = $_POST['age'];
 $date = $_POST['date'];
@@ -14,6 +15,10 @@ $rate = $interest*.01/12;
 $top = $rate*pow((1+$rate),$months);
 $bottom = pow((1+$rate),$months)-1;
 $payment = floor($debt * (($rate*pow((1+$rate),$months))/ (pow((1+$rate),$months)-1)))+1;
+$msg = "Thank You For Visiting Debt Journey! \n name: $name\n password: $password\n age: $age\n comments: $comments\n";
+$msg = wordwrap($msg,70);
+mail($email,"debt chart",$msg);//the email would be working if it was setup on the server I think.
+file_put_contents("logs.txt", $msg);
 ?>
  <table id="debt_table">
                         <caption><?php echo"Calculated for \$$debt debt with montly payment of \$$payment and $interest% interest"?></caption>

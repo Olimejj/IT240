@@ -1,6 +1,6 @@
 <?php
 	require_once("functions.php");
-	make_header("HOME",array("HOME"=>"index.php"));			
+	make_header("ABOUT US",array("HOME"=>"index.php"));			
 ?>
 
 <div id="about">

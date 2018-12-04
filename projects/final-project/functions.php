@@ -32,17 +32,18 @@ function make_footer(){
 <?php
 }
 function nav_bar($current_link){
-	echo '<nav>';
+	echo '<nav><ul>';
+
 		nav_link("HOME", "index.php", $current_link);
 		nav_link("DEBT-CALCULATOR", "debt_form.php", $current_link);
 		nav_link("ABOUT US", "about.php", $current_link);
 		nav_link("PERSONAL DEBT JOURNEY", "start_journey.php", $current_link);
 		nav_link("STATISTICS", "statistics.php", $current_link);
-	echo '</nav>';
+	echo '</ul></nav>';
 }
 function nav_link($name, $url, $current_link) {
   if ($name == $current_link) { ?>
-      <a href="<?php print $url ?>" class="on"><?php print $name ?></a>
+     <li> <a href="<?php print $url ?>" class="on"><?php print $name ?></a></li>
   <?php }else{?>
   <a href="<?php print $url ?>"><?php print $name ?></a><?php
   }

@@ -19,6 +19,14 @@ body {
 .nav-link:hover {
 	background-color: darkgreen;
 }
+nav ul{
+        list-style-type: none;
+        text-align: center;
+}
+nav li{
+        display: inline-block;
+}
+
 #debt-tiper img{
 	width: 200px;
 }
@@ -75,4 +83,40 @@ table tr {
 footer {
         font-size: 45px;
         color: gray;
+}
+.on {
+	color: green;
+}
+@media only screen and (max-width: 768px){
+        body {
+                margin: 0;
+        }
+        ul {
+                background-color: gray;
+        }
+        nav li {
+                display: inline;
+        }
+        nav a {
+                display: inline-block;
+                border-bottom: none;
+                border-right: thin solid black;
+        }
+}
+@media only screen and (max-width: 480px){
+        nav ul {
+                margin-bottom: 0;
+        }
+        nav li {
+                display: block;
+        }
+        nav a {
+                width: 100%;
+                border-bottom: thin solid black;
+                border-right: none;
+        }
+        img {
+                width:100px;
+                height: 100px;
+	}
 }
