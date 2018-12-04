@@ -1,7 +1,7 @@
 <?php
 	require_once("functions.php");
-	make_header("PERSONAL CHART",array("HOME"=>"index.php", "CHART"=>"table.php"));			
-$frequency = $_POST['frequency'];
+	make_header("PERSONAL CHART",array("HOME"=>"index.php", "DEBT-CALCULATOR" => "debt_form.php", "CHART"=>"table.php", ));			
+$months = $_POST['months'];
 $name = $POST['name'];
 $email = $_POST['email'];
 $age = $_POST['age'];
@@ -10,25 +10,38 @@ $debt = $_POST['debt'];
 $interest = $_POST['interest'];
 $agree = $_POST['agree'];
 $comments = $_POST['comments'];
-echo "$name <br> $email<br> $age<br> $date<br> $debt<br> $interest<br> $agree<br> $comments<br>";
+$rate = $interest*.01/12;
+$top = $rate*pow((1+$rate),$months);
+$bottom = pow((1+$rate),$months)-1;
+$payment = floor($debt * (($rate*pow((1+$rate),$months))/ (pow((1+$rate),$months)-1)))+1;
 ?>
  <table id="debt_table">
-                        <caption>Calculated for $15,000 debt with montly payment of $2,600 and 6% interest</caption>
+                        <caption><?php echo"Calculated for \$$debt debt with montly payment of \$$payment and $interest% interest"?></caption>
                         <tr class="table-heading">
-                            <th><?php echo $frequency?></th>
+                            <th>Months</th>
                             <th>Payment</th>
                             <th>Interest</th>
                             <th>Total Paid</th>
                             <th>Total Interest</th>
                             <th>Remaining Balance</th>
                         </tr>
-                        <tr class='payment'><td>December 2018</td>
-                            <td>$2,600</td>
-                            <td>$75</td>
-                            <td>$2,600</td>
-                            <td>$75</td>
-                            <td>$12,475</td>
-                        </tr>
+			<?php $total_paid = 0;$debt_left=$months*$payment;
+				$total_interest=0;
+			for($x = 1; $x <= $months; $x++){
+
+				$interest_paid = $interest*.01/$months*$debt_left;
+				$total_paid+=$payment;
+				$debt_left = ($months*$payment)-$total_paid;
+				$total_interest += $interest_paid;
+                       		echo" <tr class='payment'><td>Month $x</td>
+                        	    <td>\$$payment</td>
+                	            <td>\$$interest_paid</td>
+        	                    <td>\$$total_paid</td>
+	                            <td>\$$total_interest</td>
+                            	    <td>\$$debt_left</td>
+                        	</tr>";
+			}
+?>
                 </table>
 
 <?php make_footer();?>

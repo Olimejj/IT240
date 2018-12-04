@@ -23,17 +23,8 @@
 					<label><input type="radio" name="age" value="older">41-102<br></label>
 				</div>
 				<div class="form-row">
-					<label for="frequency">Frequency Of Payments:</label>
-					<select id="frequency" name="frequency">
-						<option>Day</option>
-						<option>Week</option>
-						<option>Month</option>
-						<option>Year</option>
-					</select>
-				</div>
-				<div class="form-row">
-					<label for="date">Goal Pay Off Date:</label>
-					<input id="date" type="date" name="date">
+					<label for ="months">Goal #Months To Payoff:</label>
+					<input id="months" type="text" name="months">
 				</div>
 				<div class="form-row">
 					<label for ="debt">Current Debt:</label>
