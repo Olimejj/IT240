@@ -6,26 +6,11 @@
 <div id="about">
 			<div id="right-column">
 				<div id="content">
-					<figure id="jack-fig">
-						<img src="jack.jpg" alt="jack from halloween town" id="jack-pic">
-						<figcaption>Jack The Pumpkin King</figcaption>
+					<figure id="jj">
+						<img src="assets/jj.jpg" alt="jj the ceo" id="jj-pic">
+						<figcaption>J.J. the dreamer/coder</figcaption>
 					</figure>
-						<p>Listen to <span id="loud">Jack the Pumpkin King</span></p>
-						<p>Boys and girls of every age<br>
-							Wouldn't you like to see something strange?<br>
-							Come with us and you will see<br>
-							This, our town of Halloween<br>
-							This is Halloween, this is Halloween<br>
-							Pumpkins scream in the dead of night<br>
-							This is Halloween, everybody make a scene<br>
-							Trick or treat till the neighbors gonna die of fright<br>
-							It's our town, everybody scream<br>
-							In this town of Halloween</p>
-						<audio controls="controls">
-							<source src="halloween_song.mp3" type="audio/mpeg">
-							<source src="halloween_song.ogg" type="audio/ogg">
-							<a href="halloween_song.mp3">Download Audio File</a>
-						</audio>
+						<p>I started school with the goal of graduating debt free. I studied at BYUH and by living as a poor college student, working part time and working as much as possible during the Summer breaks I was able to maintain that until my grades droped and I lost most of my scholorship then got married and started having kids! At this point student debt became almost unavoidable if I wanted to finish school so I started taking out loans and before I knew it I had gotten carried away and was still 2 semesters short of graduation with $25,000 in student loans. </p><p> It took a lot of work but I was able to turn that around so that my final 2 semesters saw that debt cut down a bit instead of continuing to grow. Once graduated I continued my methods of paying down debt and soon found myself debt free. On my Journey I picked up some things that I hope to share with others in similar possition. I learned that it is not only about getting out of debt as quickly as possible but excelling and enjoying the get out of debt journey.</p>
 						<br class="clear">
 				</div>
 </div>

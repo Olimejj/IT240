@@ -1,0 +1,6 @@
+Thank You For Visiting Debt Journey! 
+ name: 
+ password: 
+ age: 
+ comments: example: When I am debt free I will be able to travel more
+and visit my family. You Can Do IT!! ect...

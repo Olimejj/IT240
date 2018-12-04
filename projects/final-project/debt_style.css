@@ -16,7 +16,7 @@ body {
 	 -ms-transform: background-color 2s linear;
 	transition: background-color 2s linear;
 }
-.nav-link:hover {
+nav li:hover {
 	background-color: darkgreen;
 }
 nav ul{
@@ -25,6 +25,10 @@ nav ul{
 }
 nav li{
         display: inline-block;
+}
+.small {
+	font-size: 15px;
+	color: green;
 }
 
 #debt-tiper img{

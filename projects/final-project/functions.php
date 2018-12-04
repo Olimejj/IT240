@@ -25,7 +25,7 @@ function make_footer(){
 	</div>
 		<footer>
 			<p>&copy; olimejj-creations</p>
-			<p id="email">olimejj@gmail.com</p>
+			<p id="contact-email">olimejj@gmail.com</p>
 		</footer>
 	</body>
 	</html>
@@ -35,21 +35,21 @@ function nav_bar($current_link){
 	echo '<nav><ul>';
 
 		nav_link("HOME", "index.php", $current_link);
-		nav_link("DEBT-CALCULATOR", "debt_form.php", $current_link);
+		nav_link("DEBT-FORM", "debt_form.php", $current_link);
 		nav_link("ABOUT US", "about.php", $current_link);
-		nav_link("PERSONAL DEBT JOURNEY", "start_journey.php", $current_link);
-		nav_link("STATISTICS", "statistics.php", $current_link);
+		nav_link("START JOURNEY", "start_journey.php", $current_link);
+		nav_link("ABOUT DEBT", "statistics.php", $current_link);
 	echo '</ul></nav>';
 }
 function nav_link($name, $url, $current_link) {
   if ($name == $current_link) { ?>
      <li> <a href="<?php print $url ?>" class="on"><?php print $name ?></a></li>
   <?php }else{?>
-  <a href="<?php print $url ?>"><?php print $name ?></a><?php
+  <li><a href="<?php print $url ?>"><?php print $name ?></a></li><?php
   }
 }
 function crumbs_generator($name, $url){
-	echo "<a href=\"$url\">$name</a>";
+	echo "<a class=\"small\" href=\"$url\">$name</a>";
 }
 function session_setup(){
 	
