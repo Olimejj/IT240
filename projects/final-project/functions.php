@@ -6,7 +6,7 @@ function make_header($current_link, $crumbs){?>
 		<head>
 			<link rel="stylesheet" type="text/css" href="debt_style.css">
 			<title>Debt Journey | <?php echo $current_link ?></title>
-			<meta charset="uft-8">
+			<meta charset="utf-8">
 		</head>
 		<body>
 			<?php $crum_num=0;
