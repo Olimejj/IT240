@@ -5,6 +5,18 @@ body {
 	font-size: 10px !important;
 	color: gray;
 }
+#book {
+	width: 90%;
+	text-align: center;
+}
+.makeover {
+/*	float: left;*/
+	width: 80%;
+}
+.makeover-right{
+/*	float:left;*/
+	width: 700%;
+}
 nav li:hover {
 	background-color: darkgreen;
 }
@@ -74,8 +86,6 @@ table tr {
         background-color: #E6F3F7;
 }
 footer {
-        font-size: 45px;
-        color: gray;
 }
 #contact-email {
 	font-size: 25px !important;
